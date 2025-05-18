@@ -1,0 +1,49 @@
+# Binaries and build artifacts
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+/vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+*.env
+
+# Config files that might contain secrets
+config.json
+config.*.json
+!config.example.json
+
+# Binary output directory
+/dist/
+
+# Logs
+*.log
+
+# macOS specific
+.DS_Store
+
+# Solr data (if testing locally)
+/solr-data/
+
+# Temporary files
+tmp/
